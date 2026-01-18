@@ -22,7 +22,7 @@ nori release create my-release ghcr.io/your-org/<module>:v1.0.0 -f values.yaml
 
 ```hcl
 module "example" {
-  source = "oci://ghcr.io/your-org/<module>?tag=v1.0.0"
+  source = "oci://ghcr.io/eunanio/oci-terraform-modules/s3?tag=v1.0.0"
 
   # Module-specific variables...
 }

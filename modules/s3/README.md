@@ -5,14 +5,14 @@ Creates an S3 bucket with comprehensive configuration options including versioni
 ## Usage with Nori
 
 ```bash
-nori release create my-bucket ghcr.io/your-org/s3:v1.0.0 -f values.yaml
+nori release create my-bucket ghcr.io/eunanio/oci-terraform-modules/s3:v1.0.0 -f values.yaml
 ```
 
 ## Usage with OpenTofu/Terraform
 
 ```hcl
 module "s3_bucket" {
-  source = "oci://ghcr.io/your-org/s3?tag=v1.0.0"
+  source = "oci://ghcr.io/eunanio/oci-terraform-modules/s3?tag=v1.0.0"
 
   bucket_name        = "my-application-bucket"
   versioning_enabled = true

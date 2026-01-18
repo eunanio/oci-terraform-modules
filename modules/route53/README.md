@@ -15,14 +15,14 @@ Creates and manages AWS Route53 hosted zones and DNS records with support for al
 ## Usage with Nori
 
 ```bash
-nori release create my-domain ghcr.io/your-org/route53:v1.0.0 -f values.yaml
+nori release create my-domain ghcr.io/eunanio/oci-terraform-modules/route53:v1.0.0 -f values.yaml
 ```
 
 ## Usage with OpenTofu/Terraform
 
 ```hcl
 module "route53" {
-  source = "oci://ghcr.io/your-org/route53?tag=v1.0.0"
+  source = "oci://ghcr.io/eunanio/oci-terraform-modules/route53?tag=v1.0.0"
 
   zone_name = "example.com"
   comment   = "Production domain"

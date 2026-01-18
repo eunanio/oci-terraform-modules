@@ -24,14 +24,14 @@ jobs:
       - name: Login to Gitea Container Registry
         uses: docker/login-action@v3
         with:
-          registry: ${{ secrets.GITEA_REGISTRY_URL }}
+          registry: ${{ secrets.REGISTRY_URL }}
           username: ${{ gitea.actor }}
           password: ${{ gitea.token }}
 
       - name: Package and Push
         uses: eunanio/nori/action@v1
         with:
-          registry: ${{ secrets.GITEA_REGISTRY_URL }}
+          registry: ${{ secrets.REGISTRY_URL }}
           repository: ${{ gitea.repository }}/${{ steps.parse.outputs.module }}
           tag: ${{ steps.parse.outputs.version }}
           module-path: ./modules/${{ steps.parse.outputs.module }}

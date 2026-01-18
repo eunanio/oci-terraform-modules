@@ -18,7 +18,7 @@ A catalog of reusable Terraform modules distributed via OCI registries. These mo
 nori release create my-release ghcr.io/your-org/<module>:v1.0.0 -f values.yaml
 ```
 
-### With OpenTofu/Terraform
+### With OpenTofu
 
 ```hcl
 module "example" {

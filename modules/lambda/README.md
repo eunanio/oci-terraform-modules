@@ -13,14 +13,14 @@ This module supports three methods for deploying Lambda function code:
 ## Usage with Nori
 
 ```bash
-nori release create my-function ghcr.io/your-org/lambda:v1.0.0 -f values.yaml
+nori release create my-function ghcr.io/eunanio/oci-terraform-modules/lambda:v1.0.0 -f values.yaml
 ```
 
 ## Usage with OpenTofu/Terraform
 
 ```hcl
 module "lambda_function" {
-  source = "oci://ghcr.io/your-org/lambda?tag=v1.0.0"
+  source = "oci://ghcr.io/eunanio/oci-terraform-modules/lambda?tag=v1.0.0"
 
   function_name = "my-api-handler"
   description   = "Handles API requests"

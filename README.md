@@ -1,6 +1,6 @@
 # oci-terraform-modules
 
-A catalog of reusable Terraform modules distributed via OCI registries. These modules are designed to work seamlessly with [Nori](https://github.com/eunanio/nori) and OpenTofu
+A catalog of reusable Terraform module. These modules are designed to work seamlessly with [Nori](https://github.com/eunanio/nori) and OpenTofu
 
 ## Available Modules
 
@@ -15,7 +15,7 @@ A catalog of reusable Terraform modules distributed via OCI registries. These mo
 ### With Nori
 
 ```bash
-nori release create my-release ghcr.io/your-org/<module>:v1.0.0 -f values.yaml
+nori release create my-release ghcr.io/eunanio/oci-terraform-modules/<module>:v1.0.0 -f values.yaml
 ```
 
 ### With OpenTofu

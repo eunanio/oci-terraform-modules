@@ -319,15 +319,5 @@ tags:
 | record_fqdns | Map of record identifiers to their FQDNs |
 | record_names | Map of record identifiers to their names |
 
-## Common Alias Zone IDs
 
-Use these zone IDs when creating alias records to AWS services:
-
-| Service | Zone ID | Notes |
-|---------|---------|-------|
-| CloudFront | `Z2FDTNDATAQYW2` | Global |
-| S3 Website (us-east-1) | `Z3AQBSTGFYJSTF` | Region-specific |
-| ALB/NLB | Check AWS docs | Region-specific |
-| API Gateway | Check AWS docs | Region-specific |
-| Global Accelerator | `Z2BJ6XQ5FK7U4H` | Global |
 

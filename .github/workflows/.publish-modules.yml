@@ -41,8 +41,3 @@ jobs:
           tag: ${{ steps.parse.outputs.version }}
           module-path: ./modules/${{ steps.parse.outputs.module }}
           description: "Terraform ${{ steps.parse.outputs.module }} module"
-          annotations: |
-            {
-              "org.opencontainers.image.source": "${{ github.server_url }}/${{ github.repository }}",
-              "org.opencontainers.image.revision": "${{ github.sha }}"
-            }

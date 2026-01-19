@@ -18,7 +18,7 @@ Creates and manages AWS Route53 hosted zones and DNS records with support for al
 nori release create my-domain ghcr.io/eunanio/oci-terraform-modules/route53:v1.0.0 -f values.yaml
 ```
 
-## Usage with OpenTofu/Terraform
+## Usage with OpenTofu
 
 ```hcl
 module "route53" {

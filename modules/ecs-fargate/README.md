@@ -22,7 +22,7 @@ Creates an AWS ECS Fargate service with comprehensive configuration including ta
 nori release create my-service ghcr.io/eunanio/oci-terraform-modules/ecs-fargate:v1.0.0 -f values.yaml
 ```
 
-## Usage with OpenTofu/Terraform
+## Usage with OpenTofu
 
 ```hcl
 module "ecs_service" {

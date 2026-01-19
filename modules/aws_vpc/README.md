@@ -20,7 +20,7 @@ Creates an AWS VPC with comprehensive configuration including Internet Gateway, 
 nori release create my-vpc ghcr.io/eunanio/oci-terraform-modules/vpc:v1.0.0 -f values.yaml
 ```
 
-## Usage with OpenTofu/Terraform
+## Usage with OpenTofu
 
 ```hcl
 module "vpc" {

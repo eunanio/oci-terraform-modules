@@ -18,7 +18,7 @@ Creates AWS subnets with comprehensive configuration including route tables, Net
 nori release create my-subnets ghcr.io/eunanio/oci-terraform-modules/subnet:v1.0.0 -f values.yaml
 ```
 
-## Usage with OpenTofu/Terraform
+## Usage with OpenTofu
 
 ```hcl
 module "subnets" {

@@ -20,7 +20,7 @@ Creates an AWS EKS (Elastic Kubernetes Service) cluster with comprehensive confi
 nori release create my-cluster ghcr.io/eunanio/oci-terraform-modules/eks:v1.0.0 -f values.yaml
 ```
 
-## Usage with OpenTofu/Terraform
+## Usage with OpenTofu
 
 ```hcl
 module "eks" {

@@ -21,7 +21,7 @@ Creates an AWS RDS database instance with comprehensive configuration options in
 nori release create my-database ghcr.io/eunanio/oci-terraform-modules/rds:v1.0.0 -f values.yaml
 ```
 
-## Usage with OpenTofu/Terraform
+## Usage with OpenTofu
 
 ```hcl
 module "rds" {

@@ -8,7 +8,7 @@ Creates an S3 bucket with comprehensive configuration options including versioni
 nori release create my-bucket ghcr.io/eunanio/oci-terraform-modules/s3:v1.0.0 -f values.yaml
 ```
 
-## Usage with OpenTofu/Terraform
+## Usage with OpenTofu
 
 ```hcl
 module "s3_bucket" {

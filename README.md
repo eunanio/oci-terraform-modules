@@ -20,7 +20,7 @@ A catalog of reusable Terraform module. These modules are designed to work seaml
 
 ## Usage
 
-### With Nori
+### With [Nori](https://github.com/eunanio/nori)
 
 ```bash
 nori release create my-release ghcr.io/eunanio/oci-terraform-modules/<module>:v1.0.0 -f values.yaml

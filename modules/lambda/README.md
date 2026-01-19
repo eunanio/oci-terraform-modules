@@ -16,7 +16,7 @@ This module supports three methods for deploying Lambda function code:
 nori release create my-function ghcr.io/eunanio/oci-terraform-modules/lambda:v1.0.0 -f values.yaml
 ```
 
-## Usage with OpenTofu/Terraform
+## Usage with OpenTofu
 
 ```hcl
 module "lambda_function" {

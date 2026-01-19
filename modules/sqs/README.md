@@ -19,7 +19,7 @@ Creates an AWS SQS (Simple Queue Service) queue with comprehensive configuration
 nori release create my-queue ghcr.io/eunanio/oci-terraform-modules/sqs:v1.0.0 -f values.yaml
 ```
 
-## Usage with OpenTofu/Terraform
+## Usage with OpenTofu
 
 ```hcl
 module "sqs" {

@@ -20,7 +20,7 @@ Creates an AWS EC2 instance with comprehensive configuration options including E
 nori release create my-instance ghcr.io/eunanio/oci-terraform-modules/ec2:v1.0.0 -f values.yaml
 ```
 
-## Usage with OpenTofu/Terraform
+## Usage with OpenTofu
 
 ```hcl
 module "ec2_instance" {

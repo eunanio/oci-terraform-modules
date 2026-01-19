@@ -18,7 +18,7 @@ Comprehensive AWS IAM management for roles, users, groups, policies, instance pr
 nori release create my-iam ghcr.io/eunanio/oci-terraform-modules/iam:v1.0.0 -f values.yaml
 ```
 
-## Usage with OpenTofu/Terraform
+## Usage with OpenTofu
 
 ```hcl
 module "iam" {
